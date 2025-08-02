@@ -52,6 +52,9 @@ categories.forEach(cat => {
   app.get(`/api/${cat}/:id`, getItemById(cat));
 });
 
-app.listen(3001, () => {
-  console.log('Сервер працює на порту 3001');
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`Сервер працює на порту ${PORT}`);
 });
+
