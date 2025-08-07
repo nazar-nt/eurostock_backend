@@ -43,7 +43,7 @@ const getItemById = (table) => (req, res) => {
 // Всі твої API endpoints
 const categories = [
   'fridges', 'washers', 'dryers', 'freezers', 'ovens', 'others',
-  'side_by_sides', 'dishwashers', 'microwaves', 'mini_fridges',
+  'side_by_sides', 'dishwashers', 'mini_fridges',
   'mini_freezers', 'stoves', 'two_in_one', 'verticals', 'tvs'
 ];
 
